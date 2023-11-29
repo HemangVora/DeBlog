@@ -62,7 +62,7 @@ const Home: NextPage = () => {
                 auth={{
                   onLogin(token) {
                     console.log("user logged in", token);
-                    window.location.reload(false);
+                    window.location.reload();
                   },
                   onLogout() {
                     console.log("user logged out");
